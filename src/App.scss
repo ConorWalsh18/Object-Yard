@@ -1,0 +1,28 @@
+.button {
+  font-size: 22px;
+  text-transform: lowercase;
+}
+
+.content-container {
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: -webkit-fill-available;
+  margin: 10px 10px 0px 10px;
+  transition: all 0.5s;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
